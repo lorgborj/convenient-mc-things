@@ -1,0 +1,131 @@
+{
+  "mod_elements": [
+    {
+      "name": "SulfurOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_things/models/block/sulfur_ore.json",
+          "src/main/java/net/mcreator/convenientthings/block/SulfurOreBlock.java",
+          "src/main/resources/data/convenient_things/worldgen/placed_feature/sulfur_ore.json",
+          "src/main/resources/assets/convenient_things/models/item/sulfur_ore.json",
+          "src/main/resources/data/convenient_things/forge/biome_modifier/sulfur_ore_biome_modifier.json",
+          "src/main/resources/data/convenient_things/worldgen/configured_feature/sulfur_ore.json",
+          "src/main/resources/assets/convenient_things/blockstates/sulfur_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SulfurDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/convenient_things/models/item/sulfur_dust.json",
+          "src/main/java/net/mcreator/convenientthings/item/SulfurDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_things/recipes/gunpowder_recipe.json",
+          "src/main/resources/data/convenient_things/advancements/recipes/gunpowder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ConvenientThings",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "convenient_things",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SulfurOreDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_things/loot_tables/blocks/sulfur_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "CoaltoSulfur",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalto_sulfur",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/convenient_things/recipes/coal_to_sulfur.json",
+          "src/main/resources/data/convenient_things/advancements/recipes/coalto_sulfur.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SulfurOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SulfurOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.convenient_things.sulfur_ore": "Sulfur Ore",
+      "item.convenient_things.sulfur_dust": "Sulfur Dust",
+      "item_group.convenient_things.convenient_things": "Convenient Things"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/convenientthings/init/ConvenientThingsModBlocks.java",
+      "src/main/java/net/mcreator/convenientthings/init/ConvenientThingsModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/convenientthings/init/ConvenientThingsModTabs.java",
+      "src/main/java/net/mcreator/convenientthings/ConvenientThingsMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "convenient_things",
+    "modName": "Convenient things",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.convenientthings"
+  },
+  "mcreatorVersion": 202500345720
+}

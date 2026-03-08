@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "convenient_things:sulfur_ore",
+  "step": "underground_ores"
+}

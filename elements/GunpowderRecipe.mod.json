@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SulfurDust"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 8.0,
+    "cookingTime": 195,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SulfurDust"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.GUNPOWDER"
+    },
+    "name": "gunpowder_recipe",
+    "namespace": "mod"
+  }
+}

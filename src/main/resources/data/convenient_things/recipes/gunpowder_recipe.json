@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 195,
+  "ingredient": {
+    "item": "convenient_things:sulfur_dust"
+  },
+  "result": "minecraft:gunpowder"
+}

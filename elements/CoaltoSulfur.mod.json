@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.COAL#0"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.5,
+    "cookingTime": 50,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Items.COAL#0"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SulfurDust"
+    },
+    "name": "coal_to_sulfur",
+    "namespace": "mod"
+  }
+}
