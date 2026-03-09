@@ -24,6 +24,7 @@ public class ConvenientThingsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.convenient_things.convenient_things")).icon(() -> new ItemStack(ConvenientThingsModItems.SULFUR_DUST.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ConvenientThingsModBlocks.SULFUR_ORE.get().asItem());
 				tabData.accept(ConvenientThingsModItems.SULFUR_DUST.get());
+				tabData.accept(ConvenientThingsModItems.SULFUR_COATED_BONE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -32,6 +33,7 @@ public class ConvenientThingsModTabs {
 			tabData.accept(ConvenientThingsModBlocks.SULFUR_ORE.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(ConvenientThingsModItems.SULFUR_DUST.get());
+			tabData.accept(ConvenientThingsModItems.SULFUR_COATED_BONE.get());
 		}
 	}
 }

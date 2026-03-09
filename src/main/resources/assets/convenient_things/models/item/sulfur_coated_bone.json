@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "convenient_things:item/sulfur_coated_bone"
+  }
+}
