@@ -116,18 +116,6 @@
           "src/main/resources/data/convenient_things/recipes/sulfur_to_bp_main.json"
         ]
       }
-    },
-    {
-      "name": "Boatbinted",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "boatbinted",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/convenient_things/recipes/boatbinted.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
