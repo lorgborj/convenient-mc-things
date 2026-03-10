@@ -17,7 +17,7 @@ import net.mcreator.convenientthings.init.ConvenientThingsModBlocks;
 
 public class SulfurOreBlock extends Block {
 	public SulfurOreBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(3f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
